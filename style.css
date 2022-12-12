@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.avatar-rafael{
+    border-radius: 50%;
+    border: 1px solid green;
+    margin-bottom: 18px;
+}
+
+
+.column-information{
+    padding: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.column-information hr{
+    border: none;
+    padding: 10px;
+    border-bottom: green solid 1px;
+}
+
+.links-sessao{
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+ul{
+    list-style: none;
+    
+}
+
+.links-sessao li{
+    margin: 10px 0;
+}
+
+.links-sessao i{
+    color: green;
+    margin-right: 10px;
+    
+}
+
+.links-sessao a{
+    color: white;
+    text-decoration: none;
+}
+
+.links-sessao a:hover{
+    color: green;
+}
+
+.links-sessao h3{
+    margin-top: 20px;
+}
