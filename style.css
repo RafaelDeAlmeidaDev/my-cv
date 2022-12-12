@@ -27,19 +27,19 @@
     border-bottom: green solid 1px;
 }
 
-.links-sessao{
+.column-information div{
     text-align: left;
     width: 80%;
     margin: 0 auto;
     
 }
 
-ul{
+.column-information ul{
     list-style: none;
     
 }
 
-.links-sessao li{
+.column-information li{
     margin: 10px 0;
 }
 
@@ -58,6 +58,14 @@ ul{
     color: green;
 }
 
-.links-sessao h3{
+.column-information h3{
     margin-top: 20px;
+}
+
+.education{
+    margin-top: 32px;
+}
+
+.education p{
+    color: green;
 }
