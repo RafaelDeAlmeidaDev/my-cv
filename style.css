@@ -7,10 +7,15 @@
     box-sizing: border-box;
 }
 
+body{
+    text-align: center;
+}
+
 .avatar-rafael{
     border-radius: 50%;
     border: 1px solid green;
     margin-bottom: 18px;
+    max-width: 320px;
 }
 
 
@@ -18,7 +23,7 @@
     padding: 40px;
     background-color: black;
     color: white;
-    text-align: center;
+    
 }
 
 .column-information hr{
@@ -30,8 +35,11 @@
 .column-information div{
     text-align: left;
     width: 80%;
-    margin: 0 auto;
     
+}
+
+.column-information div div{
+    width: 100%;
 }
 
 .column-information ul{
@@ -68,4 +76,21 @@
 
 .education p{
     color: green;
+}
+
+.language .percent{
+    height: 6px;
+    background-color: #008000;
+    width: 205px;
+    margin-top: 5px;
+}
+
+.language .percent div{
+    height: 6px;
+    background-color: #32cd32;
+}
+
+.language .percent .ingles{
+    width: 10%;
+    background-color: #32cd32;
 }
