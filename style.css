@@ -91,7 +91,7 @@ body{
 }
 
 .language .percent .ingles{
-    width: 10%;
+    width: 5%;
     background-color: #32cd32;
 }
 
@@ -122,4 +122,23 @@ body{
 
 .column-experiences .last-date{
     text-align: right;
+}
+
+@media(min-width: 992px){
+    .container{
+        display: flex;
+    }
+
+    .avatar-rafael{
+        width: 267px;
+    }
+
+    .experiencies .experiencie{
+        display: flex;
+    }
+
+    .experiencie-date{
+        width: 300px;
+        padding: 20px;
+    }
 }
